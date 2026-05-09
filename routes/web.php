@@ -10,6 +10,12 @@ Route::get('/', function () {
     return view('home');
 })->name('home');
 
+// TEMPORARY MIGRATE ROUTE
+Route::get('/migrate', function () {
+    \Illuminate\Support\Facades\Artisan::call('migrate', ['--force' => true, '--seed' => true]);
+    return 'Migrasi Database Berhasil!';
+});
+
 Route::get('/about', function () {
     return view('about');
 })->name('about');
