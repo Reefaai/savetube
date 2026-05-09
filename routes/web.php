@@ -12,7 +12,7 @@ Route::get('/', function () {
 
 // TEMPORARY MIGRATE ROUTE
 Route::get('/migrate', function () {
-    \Illuminate\Support\Facades\Artisan::call('migrate', ['--force' => true, '--seed' => true]);
+    \Illuminate\Support\Facades\Artisan::call('migrate', ['--force' => true]);
     return 'Migrasi Database Berhasil!';
 });
 
