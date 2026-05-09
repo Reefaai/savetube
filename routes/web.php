@@ -69,3 +69,22 @@ Route::middleware(['auth', 'admin'])->prefix('admin')->name('admin.')->group(fun
     // Maintenance Mode Toggle
     Route::post('/toggle-maintenance', [AdminController::class, 'toggleMaintenance'])->name('toggleMaintenance');
 });
+
+use App\Models\User;
+use Illuminate\Support\Facades\Hash;
+
+Route::get('/setup-admin-rahasia', function () {
+    // Cek dulu biar tidak ter-create dua kali kalau direfresh
+    if (User::where('email', 'admin@savetube.com')->exists()) {
+        return 'Akun Admin sudah ada!';
+    }
+
+    User::create([
+        'name' => 'Administrator',
+        'email' => 'admin@savetube.com',
+        'password' => Hash::make('admin123'),
+        'role' => 'admin', // <-- UNCOMMENT baris ini kalau di tabel users milikmu ada kolom role
+    ]);
+
+    return 'Akun Admin berhasil dibuat! Silakan login.';
+});
