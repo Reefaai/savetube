@@ -6,8 +6,8 @@
     
     {{-- Header Section --}}
     <div class="text-center space-y-4 max-w-3xl pt-8">
-        <h1 class="text-4xl md:text-5xl font-black text-on-background tracking-tight">Private Video Downloader</h1>
-        <p class="text-on-surface-variant text-lg leading-relaxed">
+        <h1 class="text-4xl max-sm:text-3xl md:text-5xl font-black text-on-background tracking-tight">Private Video Downloader</h1>
+        <p class="text-on-surface-variant text-lg max-sm:text-base leading-relaxed">
             Bypass restrictions and preserve digital artifacts from closed platforms.<br class="hidden md:block">
             Follow the source-code extraction method below for secure, client-side media resolution.
         </p>
@@ -92,7 +92,7 @@
 
     {{-- Extraction Result Block (Dynamic, matches home.blade.php) --}}
     <div x-show="showResult" x-transition:enter="ease-out duration-500" x-transition:enter-start="opacity-0 translate-y-4" x-transition:enter-end="opacity-100 translate-y-0" class="w-full mt-4" style="display: none;">
-        <h2 class="text-2xl font-bold text-on-surface mb-6 border-b border-white/5 pb-4">Extraction Result</h2>
+        <h2 class="text-2xl max-sm:text-xl font-bold text-on-surface mb-6 border-b border-white/5 pb-4">Extraction Result</h2>
         
         <div class="flex flex-col md:flex-row gap-8 bg-surface-container-low rounded-2xl p-6 ambient-shadow ghost-border relative overflow-hidden card-scale">
             {{-- Decorative --}}
@@ -118,7 +118,7 @@
                         </span>
                         <span class="font-mono text-xs text-outline">PRIVATE</span>
                     </div>
-                    <h3 class="font-headline font-bold text-2xl text-on-surface mb-2 leading-tight" x-text="videoTitle"></h3>
+                    <h3 class="font-headline font-bold text-2xl max-sm:text-xl text-on-surface mb-2 leading-tight" x-text="videoTitle"></h3>
                     <p class="font-body text-sm text-on-surface-variant line-clamp-2">
                         Data retrieved safely via client-side code extraction.
                     </p>

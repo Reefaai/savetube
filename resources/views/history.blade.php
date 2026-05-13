@@ -8,8 +8,8 @@
 
     {{-- Page Header --}}
     <section class="flex flex-col gap-4">
-        <h1 class="text-4xl md:text-[3.5rem] font-black tracking-[-0.02em] leading-tight bg-clip-text text-transparent bg-gradient-to-r from-primary via-secondary to-tertiary">Riwayat Download</h1>
-        <p class="text-xl text-on-surface-variant font-light">Daftar video yang pernah kamu unduh.</p>
+        <h1 class="text-4xl max-sm:text-3xl md:text-[3.5rem] font-black tracking-[-0.02em] leading-tight bg-clip-text text-transparent bg-gradient-to-r from-primary via-secondary to-tertiary">Riwayat Download</h1>
+        <p class="text-xl max-sm:text-lg text-on-surface-variant font-light">Daftar video yang pernah kamu unduh.</p>
     </section>
 
     {{-- Filters & Search --}}
@@ -107,7 +107,7 @@
                 <div class="flex flex-col justify-between flex-grow py-2 gap-4">
                     <div class="flex flex-col gap-2">
                         <div class="flex justify-between items-start gap-4">
-                            <h3 class="text-2xl font-bold text-on-surface leading-snug line-clamp-2" x-text="log.video_title || 'Untitled'"></h3>
+                            <h3 class="text-2xl max-sm:text-xl font-bold text-on-surface leading-snug line-clamp-2" x-text="log.video_title || 'Untitled'"></h3>
                             <button @click="deleteLog(log.id)" aria-label="Hapus" class="text-outline hover:text-error transition-colors flex-shrink-0">
                                 <span class="material-symbols-outlined">delete</span>
                             </button>
@@ -176,7 +176,7 @@
                 <span class="material-symbols-outlined text-6xl text-outline-variant">history</span>
             </div>
             <div class="flex flex-col gap-2 max-w-md">
-                <h2 class="text-2xl font-bold text-on-surface">Belum ada riwayat</h2>
+                <h2 class="text-2xl max-sm:text-xl font-bold text-on-surface">Belum ada riwayat</h2>
                 <p class="text-on-surface-variant">Kamu belum pernah mengunduh video apapun. Mulai jelajahi dan simpan video favoritmu!</p>
             </div>
             <a href="{{ route('home') }}" class="px-8 py-3 rounded-xl bg-gradient-to-br from-primary to-primary-container text-on-primary font-bold hover:scale-105 transition-transform mt-4">Mulai Download</a>

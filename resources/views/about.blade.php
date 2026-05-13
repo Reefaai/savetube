@@ -14,11 +14,11 @@
             <span class="text-xs font-mono text-on-surface-variant tracking-widest uppercase">v0.1.0 - Snapshot Release</span>
         </div>
         
-        <h1 class="text-5xl md:text-7xl font-black tracking-tighter text-on-surface leading-[1.1]">
+        <h1 class="text-5xl max-sm:text-4xl md:text-7xl font-black tracking-tighter text-on-surface leading-[1.1]">
             The Vision Behind <br/>
             <span class="bg-clip-text text-transparent bg-gradient-to-r from-primary via-secondary to-tertiary">SaveTube</span>
         </h1>
-        <p class="text-xl md:text-2xl text-on-surface-variant leading-relaxed max-w-3xl font-light">
+        <p class="text-xl max-sm:text-lg md:text-2xl text-on-surface-variant leading-relaxed max-w-3xl font-light">
             A highly-curated, zero-friction archive tool designed to preserve digital artifacts from the social web. Built for speed, permanence, and aesthetic clarity.
         </p>
     </section>
@@ -31,8 +31,8 @@
     <!-- Tech Stack: Solid Cards -->
     <section class="flex flex-col items-center gap-12 relative fade-in-up snap-start" style="animation-delay: 150ms;">
         <div class="text-center">
-            <h2 class="text-3xl font-bold tracking-tight text-on-surface mb-4">Engineered for Permanence</h2>
-            <p class="text-on-surface-variant max-w-xl mx-auto text-lg font-light">Built upon a robust, modern foundation to ensure maximum throughput and reliability during peak extraction events.</p>
+            <h2 class="text-3xl max-sm:text-2xl font-bold tracking-tight text-on-surface mb-4">Engineered for Permanence</h2>
+            <p class="text-on-surface-variant max-w-xl mx-auto text-lg max-sm:text-base font-light">Built upon a robust, modern foundation to ensure maximum throughput and reliability during peak extraction events.</p>
         </div>
         
         <div class="flex flex-wrap justify-center gap-5 max-w-4xl">
@@ -100,8 +100,8 @@
                     <span class="material-symbols-outlined text-secondary text-sm">badge</span>
                     <span class="text-xs font-mono text-secondary tracking-widest uppercase font-semibold">System Architect</span>
                 </div>
-                <h3 class="text-4xl md:text-5xl font-black text-on-surface tracking-tight mb-4">Ahmad Rifa`i</h3>
-                <p class="text-on-surface-variant text-lg leading-relaxed font-light">
+                <h3 class="text-4xl max-sm:text-3xl md:text-5xl font-black text-on-surface tracking-tight mb-4">Ahmad Rifa`i</h3>
+                <p class="text-on-surface-variant text-lg max-sm:text-base leading-relaxed font-light">
                     Crafting elegant solutions for complex digital preservation challenges. Focused on the intersection of intuitive human-computer interaction and robust backend architecture.
                 </p>
             </div>

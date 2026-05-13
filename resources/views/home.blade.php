@@ -27,11 +27,11 @@
 
     {{-- Hero Section --}}
     <section class="max-w-4xl mx-auto px-6 pt-16 pb-12 text-center">
-        <h1 class="font-headline font-black text-4xl md:text-[3.5rem] leading-[1.1] tracking-[-0.02em] text-on-surface mb-6">
+        <h1 class="font-headline font-black text-4xl max-sm:text-3xl md:text-[3.5rem] leading-[1.1] tracking-[-0.02em] text-on-surface mb-6">
             Download Video dari <br/> 
             <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-primary-container">Media Sosial Mana Pun</span>
         </h1>
-        <p class="font-body text-lg text-on-surface-variant max-w-2xl mx-auto leading-relaxed">
+        <p class="font-body text-lg max-sm:text-base text-on-surface-variant max-w-2xl mx-auto leading-relaxed">
             Arsipkan momen digital dengan kualitas tak tertandingi. Tidak ada batasan, tidak ada watermark. Hanya konten murni.
         </p>
     </section>
@@ -78,7 +78,7 @@
                             </span>
                             <span class="font-mono text-xs text-outline">.MP4</span>
                         </div>
-                        <h3 class="font-headline font-bold text-2xl text-on-surface mb-2 leading-tight" x-text="video.title"></h3>
+                        <h3 class="font-headline font-bold text-2xl max-sm:text-xl text-on-surface mb-2 leading-tight" x-text="video.title"></h3>
                         <p class="font-body text-sm text-on-surface-variant line-clamp-2">
                             <span class="text-outline">oleh</span> <span x-text="video.uploader"></span>
                         </p>
@@ -145,7 +145,7 @@
 
     {{-- ── Section 1: Platform yang Didukung ────────────────────── --}}
     <div class="text-center snap-start">
-        <h2 class="font-headline font-bold text-2xl md:text-3xl text-on-surface tracking-tight mb-3">Platform yang Didukung</h2>
+        <h2 class="font-headline font-bold text-2xl max-sm:text-xl md:text-3xl text-on-surface tracking-tight mb-3">Platform yang Didukung</h2>
         <p class="text-on-surface-variant text-sm max-w-xl mx-auto mb-10">Download video dari platform favoritmu — tanpa ribet, tanpa batas.</p>
 
         <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 max-w-3xl mx-auto">
@@ -186,7 +186,7 @@
 
     {{-- ── Section 2: Cara Download Video ───────────────────────── --}}
     <div class="text-center snap-start">
-        <h2 class="font-headline font-bold text-2xl md:text-3xl text-on-surface tracking-tight mb-3">Cara Download Video</h2>
+        <h2 class="font-headline font-bold text-2xl max-sm:text-xl md:text-3xl text-on-surface tracking-tight mb-3">Cara Download Video</h2>
         <p class="text-on-surface-variant text-sm max-w-xl mx-auto mb-12">Tiga langkah simpel — kontenmu tersimpan dalam hitungan detik.</p>
 
         <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
@@ -222,7 +222,7 @@
 
     {{-- ── Section 3: Fitur Unggulan ────────────────────────────── --}}
     <div class="text-center snap-start">
-        <h2 class="font-headline font-bold text-2xl md:text-3xl text-on-surface tracking-tight mb-3">Fitur Unggulan</h2>
+        <h2 class="font-headline font-bold text-2xl max-sm:text-xl md:text-3xl text-on-surface tracking-tight mb-3">Fitur Unggulan</h2>
         <p class="text-on-surface-variant text-sm max-w-xl mx-auto mb-10">Dirancang untuk kecepatan, kualitas, dan privasi tanpa kompromi.</p>
 
         <div class="grid grid-cols-1 sm:grid-cols-2 gap-5 max-w-4xl mx-auto">
@@ -276,7 +276,7 @@
     {{-- ── Section 4: FAQ ───────────────────────────────────────── --}}
     <div class="max-w-3xl mx-auto snap-start">
         <div class="text-center mb-10">
-            <h2 class="font-headline font-bold text-2xl md:text-3xl text-on-surface tracking-tight mb-3">Pertanyaan Umum</h2>
+            <h2 class="font-headline font-bold text-2xl max-sm:text-xl md:text-3xl text-on-surface tracking-tight mb-3">Pertanyaan Umum</h2>
             <p class="text-on-surface-variant text-sm">Jawaban cepat untuk pertanyaan yang sering ditanyakan.</p>
         </div>
 
@@ -327,7 +327,7 @@
     {{-- ── Section 5: Untuk Developer ───────────────────────────── --}}
     <div class="max-w-3xl mx-auto snap-start">
         <div class="text-center mb-10">
-            <h2 class="font-headline font-bold text-2xl md:text-3xl text-on-surface tracking-tight mb-3">Untuk Developer</h2>
+            <h2 class="font-headline font-bold text-2xl max-sm:text-xl md:text-3xl text-on-surface tracking-tight mb-3">Untuk Developer</h2>
             <p class="text-on-surface-variant text-sm">Integrasikan SaveTube ke dalam proyek kamu dengan API sederhana.</p>
         </div>
 
