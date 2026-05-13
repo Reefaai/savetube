@@ -6,6 +6,15 @@
     <meta name="csrf-token" content="{{ csrf_token() }}"/>
     <title>@yield('title', 'SaveTube')</title>
     
+    <!-- PWA Setup -->
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="theme-color" content="#1e1e2e" />
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('/sw.js');
+        }
+    </script>
+
     <!-- Alpine.js & Tailwind -->
     <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
     <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>

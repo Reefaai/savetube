@@ -1,0 +1,16 @@
+{
+  "name": "SaveTube",
+  "short_name": "SaveTube",
+  "description": "Video Downloader Application",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1e1e2e",
+  "theme_color": "#cba6f7",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "64x64",
+      "type": "image/x-icon"
+    }
+  ]
+}
